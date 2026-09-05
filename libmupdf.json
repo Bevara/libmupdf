@@ -1,0 +1,20 @@
+{
+    "name": "libmupdf",
+    "description": "Document decoder (XPS, CBZ, EPUB, FB2, MOBI)",
+    "filters":["mupdfdec"],
+    "help": "This filter renders the first page of an XPS, CBZ, EPUB, FictionBook or Mobipocket document to a raw image using MuPDF.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libmupdf.accessor",
+    "filter_source":{
+        "mupdfdec" : "dec_mupdf.c"
+    },
+    "extension":{
+      "xps" : "img",
+      "oxps" : "img",
+      "cbz" : "img",
+      "epub" : "img"
+    },
+    "licence_required":false
+}
