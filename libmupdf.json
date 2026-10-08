@@ -16,5 +16,6 @@
       "cbz" : "img",
       "epub" : "img"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
