@@ -16,6 +16,10 @@
       "cbz" : "img",
       "epub" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "PDF, XPS, EPUB documents",
+        "checked": "2026-10-16"
+    }
 }
