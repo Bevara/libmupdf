@@ -16,7 +16,7 @@
       "cbz" : "img",
       "epub" : "img"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "patents": {
         "status": "royalty-free",
         "note": "PDF, XPS, EPUB documents",
